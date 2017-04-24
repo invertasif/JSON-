@@ -14,6 +14,8 @@
 		E09CF4261EAE2258002BCA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09CF4241EAE2258002BCA12 /* LaunchScreen.storyboard */; };
 		E09CF4311EAE2258002BCA12 /* JsonDemo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CF4301EAE2258002BCA12 /* JsonDemo1Tests.swift */; };
 		E09CF43C1EAE2258002BCA12 /* JsonDemo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09CF43B1EAE2258002BCA12 /* JsonDemo1UITests.swift */; };
+		E09CF44A1EAE227F002BCA12 /* simple.json in Resources */ = {isa = PBXBuildFile; fileRef = E09CF4491EAE227F002BCA12 /* simple.json */; };
+		E0BBE6101EAE3914001EDDC9 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BBE60F1EAE3914001EDDC9 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E09CF4371EAE2258002BCA12 /* JsonDemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonDemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09CF43B1EAE2258002BCA12 /* JsonDemo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDemo1UITests.swift; sourceTree = "<group>"; };
 		E09CF43D1EAE2258002BCA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09CF4491EAE227F002BCA12 /* simple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple.json; sourceTree = "<group>"; };
+		E0BBE60F1EAE3914001EDDC9 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				E09CF41B1EAE2258002BCA12 /* AppDelegate.swift */,
 				E09CF41D1EAE2258002BCA12 /* ViewController.swift */,
+				E0BBE60F1EAE3914001EDDC9 /* Food.swift */,
 				E09CF41F1EAE2258002BCA12 /* Main.storyboard */,
+				E09CF4491EAE227F002BCA12 /* simple.json */,
 				E09CF4221EAE2258002BCA12 /* Assets.xcassets */,
 				E09CF4241EAE2258002BCA12 /* LaunchScreen.storyboard */,
 				E09CF4271EAE2258002BCA12 /* Info.plist */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09CF4261EAE2258002BCA12 /* LaunchScreen.storyboard in Resources */,
+				E09CF44A1EAE227F002BCA12 /* simple.json in Resources */,
 				E09CF4231EAE2258002BCA12 /* Assets.xcassets in Resources */,
 				E09CF4211EAE2258002BCA12 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				E09CF41E1EAE2258002BCA12 /* ViewController.swift in Sources */,
 				E09CF41C1EAE2258002BCA12 /* AppDelegate.swift in Sources */,
+				E0BBE6101EAE3914001EDDC9 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +511,7 @@
 				E09CF4421EAE2258002BCA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E09CF4431EAE2258002BCA12 /* Build configuration list for PBXNativeTarget "JsonDemo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				E09CF4451EAE2258002BCA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E09CF4461EAE2258002BCA12 /* Build configuration list for PBXNativeTarget "JsonDemo1UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				E09CF4481EAE2258002BCA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
